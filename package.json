@@ -1,0 +1,24 @@
+{
+  "name": "fauth",
+  "version": "0.0.1",
+  "description": "Make-believe authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyinabox/faux.git"
+  },
+  "keywords": [
+    "fake",
+    "auth",
+    "javascript"
+  ],
+  "author": "Andy Dayton <amdayton@gmail.com> (http://andydayton.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyinabox/faux/issues"
+  },
+  "homepage": "https://github.com/andyinabox/faux"
+}
