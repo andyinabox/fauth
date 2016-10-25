@@ -1,9 +1,11 @@
 module.exports = function(pass, opts, cb) {
 
+	// quack quack
 	if(typeof opts === 'function') {
 		cb = opts;
 		opts = {};
 	}
+	
 	opts = opts || {};
 
 	var tries = opts.tries;
@@ -11,7 +13,7 @@ module.exports = function(pass, opts, cb) {
 	var whitelist = opts.whitelist;
 	var disabled = opts.disabled;
 
-	// check blacklist
+	// check whitelist
 	if(whitelist) {
 
 		var host = window.location.host;
